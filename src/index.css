@@ -44,9 +44,47 @@ ul {
 li {
   color: white;
   margin-top: 10px;
+  max-width: 750px;
 }
 
 img {
   border-radius: 10px;
   margin-top: 50px;
+  max-width: 750px;
+}
+
+video {
+  margin-top: 25px;
+  max-width: 750px;
+}
+
+span {
+  background-color: green;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.twitter {
+  color: white;
+  font-size: 48px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.linkedin {
+  color: white;
+  font-size: 48px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.twitter:hover,
+.linkedin:hover {
+  color: grey;
 }
