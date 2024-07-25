@@ -90,6 +90,12 @@ function App() {
         the function outside AuthContextProvider, it doesn`t know what these 3
         things are and we have to define them.
       </p>
+      <p>
+        In order to define these 3 things, we have to pass in props as objects.
+        And with using typescript here, we also have to assign types to them as
+        well. This part can be a little tricky trying to figure out what type to
+        assign them, but I found a cool trick on how to know what to assign it.
+      </p>
     </div>
   );
 }
